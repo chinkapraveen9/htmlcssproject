@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 0.3fr;
+            width: 99%;
+            height: 300vh;
+        }
+
+        .box1 {
+            background-image: url(./slide_01.jpg);
+            background-repeat: no-repeat;
+            background-image: fixed;
+            background-size: 100% 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .head1 {
+            display: flex;
+            justify-content: space-between;
+            gap: 5%;
+        }
+
+        .container {
+            text-align: center;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box21 {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .box3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 5% 0% 5% 6%;
+        }
+
+        .box41 {
+            padding: 5% 0% 5% 6%;
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba(34, 35, 41, 0.216);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box1">
+        <header style="background-color: rgba(0, 0, 0, 0.467);">
+            <div>
+                <h1 style="color: white;">Sixteen <span style="color: red;">Clothing</span></h1>
+            </div>
+            <div>
+                <div class="head1">
+                    <h1 style="color: white;">Home</h1>
+                    <h1 style="color: white;">Our Products</h1>
+                    <h1 style="color: white;">About Us</h1>
+                    <h1 style="color: white;">Contact Us</h1>
+                </div>
+        </header>
+
+        <div class="container">
+            <h1 style="color: red;">BEST offer</h1>
+            <h1 style="color: white;">NEW ARRIVALS ON SALE</h1>
+        </div>
+    </div>
+    <div class="box2" style="padding:5% 0%  5% 6%; background-color: azure;">
+        <h3>Latest Products</h3>
+        <div class="box21">
+            <div class="product">
+                <img src="./product_01.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$27.79</p>
+            </div>
+            <div class="product">
+                <img src="./product_02.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$20.25</p>
+            </div>
+            <div class="product">
+                <img src="./product_03.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$24.85</p>
+            </div>
+            <div class="product">
+                <img src="./product_04.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$27.79</p>
+            </div>
+            <div class="product">
+                <img src="./product_05.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$20.25</p>
+            </div>
+            <div class="product">
+                <img src="./product_06.jpg" alt="Product Image">
+                <h4>Title goes here</h4>
+                <p>$24.85</p>
+            </div>
+        </div>
+    </div>
+    <div class="box3" style="background-color: rgba(252, 252, 252, 0.948);">
+        <div class="box31">
+            <h3>About Sixteen Clothing</h3>
+            <p>Looking for the best products? Check out our new arrivals. We offer a wide range of clothing items for
+                all seasons and occasions.</p>
+            <ul>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+            <button style="background-color: red; color: white; padding: 3%;">Read more</button>
+        </div>
+        <div class="box32">
+            <img src="./feature-image.jpg" alt="">
+        </div>
+    </div>
+    <div class="box4">
+        <div class="box41">
+            <div>
+                <h1 style="color: rgb(0, 166, 255);">Creative & Unique <strong>Sixteen</strong>Products</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ex?</p>
+            </div>
+            <div>
+                <button style="background-color: red; color: white; padding: 5%;">Purchase now</button>
+            </div>
+        </div>
+    </div>
+    <footer style="text-align: center;">
+        <h1>&copy; 2024 Sixteen Clothing Co. All rights reserved.
+        </h1>
+    </footer>
+</body>
+
+</html>
